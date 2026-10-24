@@ -1,0 +1,26 @@
+paragraphs: 571  tables: 36
+H1(22pt) count: 1 -> ['51 单片机智能门锁 —— 代码彻底吃透']
+heading size histogram: {22.0: 1, 10.5: 62, 16.0: 16, 13.0: 70, 11.5: 22}
+chapter headings (14):
+   第 0 章 读之前：这份文档怎么用
+   第 1 章 项目全景
+   第 2 章 51 单片机基础（只讲这份代码用到的）
+   第 3 章 开发环境与编译链接
+   第 4 章 驱动层逐行精讲
+   第 5 章 `main.c` 业务逻辑逐行精讲
+   第 6 章 这份代码里的设计思想
+   第 7 章 调试与故障排查
+   第 8 章 原代码 Bug 复盘
+   第 9 章 动手练习
+   附录 A 引脚分配速查
+   附录 B LCD1602 指令表
+   附录 C 编译输出与 map 文件
+   附录 D 术语表
+code blocks: 110
+table0: rows=11 cols=3 first=知识点
+table1: rows=10 cols=4 first=器件
+table2: rows=9 cols=4 first=引脚
+table3: rows=9 cols=4 first=文件
+table4: rows=9 cols=3 first=资源
+empty paragraphs: 0
+missing keywords: none

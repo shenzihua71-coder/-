@@ -1,0 +1,42 @@
+C51 COMPILER V9.60.0.0   JDQ                                                               10/23/2026 16:08:03 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE JDQ
+OBJECT MODULE PLACED IN .\Objects\jdq.obj
+COMPILER INVOKED BY: D:\c51\Keil_v5\C51\BIN\C51.EXE jdq.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\j
+                    -dq.lst) TABS(2) OBJECT(.\Objects\jdq.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include "jdq.h"
+   3          void Lock_turn(void)
+   4          {
+   5   1        lock = ~lock;
+   6   1      }
+   7          /*
+   8          void lock_open(void)
+   9          {
+  10            if (lock == 1) return;
+  11            lock = 1;
+  12          }
+  13          void lock_close(void)
+  14          {
+  15            if (lock == 0) return;
+  16            lock = 0;
+  17          }
+  18          */
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      3    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

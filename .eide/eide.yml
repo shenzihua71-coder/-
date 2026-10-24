@@ -1,0 +1,62 @@
+version: "4.1"
+name: zhinengmensuo
+type: C51
+deviceName: null
+packDir: null
+srcDirs: []
+virtualFolder:
+  name: <virtual_root>
+  files: []
+  folders:
+    - name: Source Group 1
+      files:
+        - path: jdq.c
+        - path: main.c
+        - path: lcd.c
+        - path: delay.c
+        - path: led.c
+        - path: keyboard.c
+      folders: []
+dependenceList: []
+outDir: build
+miscInfo:
+  uid: c40dde3483b33944824e7abd31d1bfc9
+targets:
+  Target 1:
+    cppPreprocessAttrs:
+      defineList: []
+      incList:
+        - null/INC/Atmel
+      libList: []
+    excludeList: []
+    settings:
+      debugger: unknown
+    toolchain: Keil_C51
+    toolchainConfigMap:
+      Keil_C51:
+        options:
+          version: 2
+          afterBuildTasks: []
+          asm-compiler: {}
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            optimization-level: level-8
+            optimization-type: SPEED
+          global:
+            ram-mode: SMALL
+            rom-mode: LARGE
+          linker:
+            misc-controls: ""
+            output-format: elf
+            remove-unused: true
+    uploadConfigMap:
+      Custom:
+        bin: ""
+        commandLine: ""
+        eraseChipCommand: ""
+      stcgal:
+        bin: ""
+        eepromImgPath: "null"
+        extraOptions: ""
+        options: .eide/stc.flash.json
+    uploader: stcgal

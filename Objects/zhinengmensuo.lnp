@@ -1,0 +1,8 @@
+".\Objects\jdq.obj",
+".\Objects\main.obj",
+".\Objects\lcd.obj",
+".\Objects\delay.obj",
+".\Objects\led.obj",
+".\Objects\keyboard.obj" 
+TO ".\Objects\zhinengmensuo" 
+PRINT(".\Listings\zhinengmensuo.m51") RAMSIZE(256) 
